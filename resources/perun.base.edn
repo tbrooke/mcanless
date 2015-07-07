@@ -1,0 +1,7 @@
+{:site-title "Brookesons' blog"
+ :author {:name "Tom Brooke"
+          :email "tom.brooke@gmail.com"}
+ :base-url "http://brookesons.github.io"
+ :language "en"
+ :keywords #{"clojure" "clojurescript" "blog"}
+ :description ""}
