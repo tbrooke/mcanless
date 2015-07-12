@@ -56,16 +56,6 @@
                     {{ card.subheading }}
                 </p>
                 {% endif %}
-                {% if card.publication %}
-                <p class="resume-publication">
-                    Published: {{ card.publication }}
-                </p>
-                {% endif %}
-                {% if card.isbn %}
-                <p class="resume-isbn">
-                    ISBN: {{ card.isbn }}
-                </p>
-                {% endif %}
                 {% if card.image %}
                    <div class="card-image">
                        <img src="images/{{ card.image }}" class="img-rounded" width="150" height="210">
@@ -83,6 +73,17 @@
                                 <div class="modal-content">
                                     <div class="modal-body">
                                         {{ card.content }}
+                                        <hr />
+                                        {% if card.publication %}
+                                           <p class="resume-publication">
+                                           Published: {{ card.publication }}
+                                           </p>
+                                         {% endif %}
+                                         {% if card.isbn %}
+                                           <p class="resume-isbn">
+                                           ISBN: {{ card.isbn }}
+                                           </p>
+                                         {% endif %}
                                     </div>
                                 </div>
                             </div>
