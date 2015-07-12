@@ -73,10 +73,10 @@
                 {% endif %}
 
                 {% if card.content %}
-                    <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#contentModal">
+                <button type="button" class="btn btn-xs" data-toggle="modal" data-target="#cM{{forloop.index}}">
                         View Details
                     </button>
-                    <div class="modal fade" id="contentModal" tabindex="-1" role="dialog"
+                    <div class="modal fade" id="cM{{forloop.index}}" tabindex="-1" role="dialog"
                          aria-labelledby="myModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-dialog">
