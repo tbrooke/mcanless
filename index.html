@@ -84,6 +84,9 @@
                                            ISBN: {{ card.isbn }}
                                            </p>
                                          {% endif %}
+                                         {% if card.purchase %}
+                                         <a href="{{card.purchase}}" class="btn btn-default">Purchase</a>
+                                         {% endif %}
                                     </div>
                                 </div>
                             </div>
