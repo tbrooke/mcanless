@@ -1,5 +1,4 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "liquid"
+gem "jekyll", '>= 2.5.3'
 
