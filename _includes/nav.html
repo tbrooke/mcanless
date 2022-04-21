@@ -4,6 +4,27 @@
 <p><i class="fa fa-envelope-o fa-lg fa-fw"></i> <a href="mailto:elle.kasai@gmail.com" target="_blank">janmccanless@aol.com</a></p>
 <nav class="hidden-print hidden-xs" role="navigation">
         <div>
+          <button type="button" class="btn btn-small" data-toggle="modal" data-target="#who">
+             Who's Who&#8201</button>
+          </button>
+          <div class="modal fade" id="who" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="{{ "/images/who.jpg" | prepend:site.baseurl }}" class="img-rounded" width="500" height="432">
+                  <p>Jan has been approved as a subject of biographical record in Who's who in America.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <p></p>
+<nav class="hidden-print hidden-xs" role="navigation">
+        <div>
           <button type="button" class="btn btn-small" data-toggle="modal" data-target="#saveAsPdf">
             Save as PDF
           </button>
