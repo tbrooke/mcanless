@@ -1,3 +1,6 @@
 _site
 .sass-cache
 .clj-kondo/
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
